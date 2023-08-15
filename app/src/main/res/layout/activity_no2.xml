@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_no2_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="几何逻辑谜题"
+        android:background="@drawable/selector_blue_background"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_no2_2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="外星人囚帽问题"
+        android:background="@drawable/selector_blue_background"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+
+</LinearLayout>

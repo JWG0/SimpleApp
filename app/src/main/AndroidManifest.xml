@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication_xiaobai">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="简单的app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".no4Activity"></activity>
+        <activity android:name=".no3LightActivity" />
+        <activity android:name=".no2.no2_2_answer_Activity" />
+        <activity android:name=".no2.no2_1_answer_Activity" />
+        <activity android:name=".no2.no2_2Activity" />
+        <activity android:name=".no2.no2_1Activity" />
+        <activity android:name=".no2.no2Activity" />
+        <activity android:name=".Block" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".no1Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
